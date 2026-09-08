@@ -12,14 +12,14 @@ export const content={
  ['The kindness you give so freely.','Even when no one is looking. Especially then.'],
  ['Because, somehow, you feel like home.','Not a place. A person. You.']],
  memories:[
- {date:'[DATE 01]',title:'The beginning of everything',text:'[MEMORY TEXT] I didn’t know it then, but this was the start of my favorite story.',photo:''},
- {date:'[DATE 02]',title:'Just one more conversation',text:'[MEMORY TEXT] When the hours disappeared, and neither of us wanted to say goodnight.',photo:''},
- {date:'[DATE 03]',title:'Our little adventure',text:'[MEMORY TEXT] It wasn’t where we went. It was getting to be there with you.',photo:''},
- {date:'[DATE 04]',title:'The moment I knew',text:'[MEMORY TEXT] Somewhere between the small moments, you became my favorite part of every day.',photo:''}],
+ {date:'[DATE 01]',title:'The beginning of everything',text:'[MEMORY TEXT] I didn’t know it then, but this was the start of my favorite story.',photo:'/photos/memory-01.jpg'},
+ {date:'[DATE 02]',title:'Just one more conversation',text:'[MEMORY TEXT] When the hours disappeared, and neither of us wanted to say goodnight.',photo:'/photos/memory-02.jpg'},
+ {date:'[DATE 03]',title:'Our little adventure',text:'[MEMORY TEXT] It wasn’t where we went. It was getting to be there with you.',photo:'/photos/memory-03.jpg'},
+ {date:'[DATE 04]',title:'The moment I knew',text:'[MEMORY TEXT] Somewhere between the small moments, you became my favorite part of every day.',photo:'/photos/memory-04.jpg'}],
  // [YOUR LETTER TEXT]: replace the sample paragraphs below.
  letter:['I’ve started this letter a hundred times in my head. Somehow, the words always felt a little too small.',
  'But here is what I know: life feels softer with you in it. The days are brighter. The quiet is comfortable. And even the ordinary things have become things I look forward to.',
  'I love the person you are, and the person I get to be around you. I love that I can tell you everything, or say nothing at all.',
  'So this is me, putting my heart somewhere you can find it. No perfect words. Just something honest.'],
- letterAccent:'If it’s you, it’s always worth the leap.',question:'Will you be mine?',yesMessage:'My favorite yes. My favorite you.',closing:'Here’s to all the memories we haven’t made yet.',closingPhoto:''
+ letterAccent:'If it’s you, it’s always worth the leap.',question:'Will you be mine?',yesMessage:'My favorite yes. My favorite you.',closing:'Here’s to all the memories we haven’t made yet.',closingPhoto:'/photos/closing.jpg'
 };
