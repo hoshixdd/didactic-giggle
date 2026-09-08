@@ -41,12 +41,20 @@ Use `/photos/...` in code, not `/public/photos/...`. File names and extensions m
 
 ## Change the visual design
 - `app/globals.css`: palette, fonts, spacing, photo frames, desktop/mobile layout.
-- `app/main.jsx`: six sections, buttons, animations, confetti and ambient sound.
+- `app/main.jsx`: six sections, buttons, animations, and confetti.
+- `app/experience.jsx`: music panel, chapter menu, enlarged photos and reading mode.
 - `app/scenes.jsx`: 3D heart shape, glass material, lights, constellation, shader.
 - `index.html`: browser-tab title, page description and font imports.
 
-## Connect to Vercel later
-Import this GitHub repository as a new Vercel project. Use the repository root, Vite framework, Node 22.x, `npm ci` install command, `npm run build` build command, and `dist` output directory. `vercel.json` already declares the framework and build settings. No environment variables are required. There is no backend or database.
+## Music and phone controls
+The Our Song button opens your chosen YouTube video, `P_APic96jvE`. Tap to load the player, then use its play/pause and volume controls. Closing the panel stops playback. YouTube may require another tap or restrict playback by region; the panel includes a direct YouTube link. No MP3 is bundled.
+
+To change the song, add `music: { youtubeId: "YOUR_VIDEO_ID" },` immediately after `export const content={` in `app/content.js`.
+
+The bottom chapter control opens navigation and Gentle mode. Reading mode provides the full letter with larger text. Uploaded photos can be tapped to enlarge. Mobile uses native scrolling and lighter 3D; system reduced-motion preferences are respected.
+
+## Vercel deployment
+This repository is connected to the existing Vercel project. Commits to main publish automatically at https://didactic-giggle-nine.vercel.app/. Do not create another project. Build settings use the repository root, Vite framework, Node 22.x, `npm ci` install command, `npm run build` build command, and `dist` output directory. `vercel.json` already declares the framework and build settings. No environment variables are required. There is no backend or database.
 
 Vercel's Git integration can deploy subsequent commits automatically. The existing ChatGPT Sites copy is a separate deployment; GitHub edits will not update it automatically.
 
