@@ -1,7 +1,7 @@
 ﻿// PERSONALIZE: replace bracketed fields, then replace the sample reasons and letter.
 // Photo paths may point to files in public/photos, e.g. '/photos/first-date.jpg'.
 export const content={
- from:'[fakyo nemo dol]',to:'[PARTNER’S NAME]',date:'[DATE]',
+ from:'[fakyo nemo dol]',to:'[adto pangutana sa porpis]',date:'[DATE]',
  opening:['I’ve been meaning','to tell you','something.'],
  reasons:[
  ['The way you make ordinary feel extraordinary.','Even a quiet Tuesday becomes a little story I want to remember.'],
